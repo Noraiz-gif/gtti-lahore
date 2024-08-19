@@ -1,0 +1,98 @@
+body{
+    color: darkgreen;
+}
+.up{
+    background-color: rgba(173, 216, 230, 0.5);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.315);
+    display: flex;
+    font-size: 30px;
+    padding: 0 auto;
+    margin-left: 170px;
+    margin-right: 170px;
+    border-right: 1px solid rgba(0, 0, 0, 0.425);
+    border-left: 1px solid rgba(0, 0, 0, 0.425);
+}
+.sign{
+    margin-left: 450px;
+    color: rgba(0, 0, 0, 0.486);
+}
+.cross{
+    margin-left: 380px;
+    margin-top: 40px;
+}
+
+.login{
+    margin-left: 170px;
+    margin-right: 170px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.315);
+    border-right: 1px solid rgba(0, 0, 0, 0.425);
+    border-left: 1px solid rgba(0, 0, 0, 0.425);
+}
+.log{
+    display: flex;
+    
+}
+.im{
+    margin-left: 560px;
+    margin-top: 10px;
+}
+span{
+    color: rgba(0, 0, 255, 0.945);
+}
+
+.fom{
+    margin-left: 170px;
+    margin-right: 170px;
+    border-right: 1px solid rgba(0, 0, 0, 0.425);
+    border-left: 1px solid rgba(0, 0, 0, 0.425);
+    margin-top: 15px;
+}
+
+label{
+    float:left;
+    display: block;
+    margin-top: 12px;
+    width: 22%;
+    text-align: right;
+    font-size: 18px;
+}
+
+
+input[id = "username"],
+input[id = "password"],
+input[id = "confirm password"],
+input[id = "email address"],
+input[id = "first name"],
+input[id = "last name"]{
+    width: 27%;
+    padding: 12px;
+}
+
+.check{
+    margin-left: 140px;
+    font-size: 20px;
+}
+
+.siup{
+    margin-left: 170px;
+    margin-right: 170px;
+    padding: 2%;
+    background-color: rgba(173, 216, 230, 0.685);
+    border-top: 1px solid rgba(0, 0, 0, 0.603);
+    border-left: 1px solid rgba(0, 0, 0, 0.603);
+    border-right: 1px solid rgba(0, 0, 0, 0.603);
+    border-bottom: 5px solid black;
+}
+
+button{
+    margin-left: 420px;
+    border: 3px solid  rgba(152, 206, 224, 0.925);
+    background-color: rgba(173, 216, 230, 0.685);
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    color: darkgreen;
+}

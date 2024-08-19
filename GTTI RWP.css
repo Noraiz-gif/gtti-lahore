@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    }
+ .navbar{
+    align-items: center;
+    padding: 20px;
+    height: 80px;
+    position: fixed;
+    width: 60%;
+    background-color:white;
+    border-top: 1px solid gainsboro;
+    
+    border-bottom: 1px solid gainsboro;
+        
+    
+ 
+    
+ }
+ .homediv{
+  width: 60%;
+  margin-left: 20%;
+  border: 1px solid gainsboro;
+  height: 60%;
+  display: flex;
+  margin-top: 2%;
+  background-color: white;
+  z-index: 2;
+  position: relative;
+  }
+
+ nav{
+
+    text-align:left;
+    font-size: smaller;
+    margin-left: 20%;
+    position: fixed;
+    z-index: 2;
+    width: 60%;
+    background-color: white;
+    position: relative;
+    
+    
+  
+ }
+ nav ul {
+    display: inline-block;
+    list-style-type: none;
+    
+    
+    
+ 
+ 
+ }
+ a:hover{
+   color:lightgreen;
+ }
+ nav ul li{
+    display: inline-block;
+    border: 1px solid gainsboro;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+ }
+ li:hover{
+  border-top: 4px solid darkgreen;
+ }
+ a{
+    text-decoration: none;
+    color: #000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+ }
+ 
+ 
+
+.prev:hover{ 
+  background-color: #f1f1f1;
+  color: black;
+  border-right: 2px solid green;} 
+.next:hover {
+  background-color: #f1f1f1;
+    color: black;
+    border-left: 2px solid green;
+    
+}
+
+.p{
+  font-size: xx-large;
+  margin-top: 5%;
+  margin-left: 15px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    transform: translate(-0%,-15%);
+    inline-size: none;
+  
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color:white;
+    
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .maindiv{
+  
+  width: 60%;
+  margin-left: 20%;
+  height: auto;
+  display: flex;
+  transform: translate(-0%,-100%);
+  }
+.maindiv1{
+  width: 40%;
+  height: 140px;
+  border: 1px solid green;
+  background-color: rgb(8, 105, 8);
+  padding-top: 10px;
+}
+
+.cap{
+  font-size: 40px;
+  background-color: white;
+  border-radius: 20px;
+  width: 60px;
+  height: 60px;
+  padding: 25px;
+  margin-top: 12px;
+  margin-left: 68px;
+  color: green;
+  padding: 4px;
+}
+  
+/* Signup Page */
+
+.container{
+    border: 1px solid gainsboro;
+    width: 40%;
+    margin-left: 30%;
+    flex-direction: column;
+    border-radius: 10px;
+    
+
+    
+}
+.Signdiv{
+ text-align: center;
+background-color:rgb(206, 235, 245);
+  width:99.99%;
+  border-radius: 10px 10px 0px 0px ;
+  height: 70px;
+  transform: translate(-0%, -0%); 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 1px solid gainsboro;
+}
+
+.Signdiv2{
+    text-align: center;
+   background-color:rgb(206, 235, 245);
+     width:99.99%;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     border-radius: 0px 0px 10px 10px ;
+     height: 70px;
+     transform: translate(-0%, -0%); 
+     border: 1px solid gainsboro;
+   }
+   
+.div2{
+    display: flex;
+    border: 1px solid gainsboro;
+
+}
+.img{ 
+margin-left: 175%;
+
+}
+.div3{
+    margin-left: 50px;
+}
+ a{
+    color: rgb(14, 155, 236);
+    text-decoration: none;
+ }
+.a{
+    font-size: x-large;}
+   
+.form{ 
+        text-align: right;
+        margin-right: 20%;
+        padding: 15px;
+    }
+.input{
+
+    margin-left: 10%;
+    height: 25px;
+    width: 220px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border-color: gainsboro;
+}
+.checkbox{
+    margin-left: 25px;
+    height: 20px;
+    margin-top: 25px;
+    width: 20px;
+}
+.terms{
+    display: flex;
+}
+
+
+.btn{
+    height: 50px;
+    margin-top: 10px;
+    font-size: x-large;
+    border-radius: 4px;
+    border: 1px solid rgb(134, 128, 128);
+    background-color: rgb(206, 235, 245);   
+}
+
+.our{
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: -8%;
+  gap: 25px;
+  border-left: 1px solid rgba(128, 128, 128, 0.363);
+  border-right: 1px solid rgba(128, 128, 128, 0.363);
+}
+.insti{
+  flex-basis: 26%;
+  text-align: justify;
+  margin-left: 10px;
+}
+
+.news{
+  flex-basis: 40%;
+}
+
+.alt{
+  flex-basis: 28%;
+}
+.ne1{
+  display: flex;
+  gap: 25px;
+}
+
+h3{
+  background-color: rgb(7, 126, 7);
+  padding: 8px;
+  color: white;
+}
+
+hr{
+  border: 1px solid rgba(128, 128, 128, 0.363);
+}
+
+.footer{
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: darkgreen;
+  padding: 20px;
+}
